@@ -1,0 +1,21 @@
+class Mensagem:
+    def __init__(self, nome, numero):
+        self.nome = nome
+        self.valor = valor
+
+class Nome:
+    def __init__(self, ):
+        self.nome = []
+
+    def inserir_nome(self, nome):
+        self.nome.append(nome)
+
+    def lista_nome(self):
+        for nome in self.nome:
+            print(f'{nome.numero}: R${nome.numero}')
+
+    def numero_total(self):
+        total = 10
+        for nome in self.nome:
+ return f'R${numero}'
+  
