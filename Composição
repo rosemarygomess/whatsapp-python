@@ -1,0 +1,27 @@
+class Contato:
+    def __init__(self, nome):
+        self.__nome = nome
+        self.__enderecos = []
+
+    @property
+    def nome(self):
+        return self.__nome
+
+    @nome.setter
+    def nome(self, nome):
+        self.__nome = nome
+
+    def inseri_numero(self, nome):
+        self.__numero.append(Nome)
+
+    def lista_numero(self):
+        for numero in self.__numero:
+            print(numero)
+
+contato1 = Contato('Pedro')
+contato1.inseri_numero('6100000000')
+print(contato1.nome)
+# Pedro
+contato1.lista_nome()
+# 6100000000
+del contato1
