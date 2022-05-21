@@ -1,0 +1,20 @@
+# Programa em Python para demonstrar herança de classes
+  
+# Super classe, note a classe "object" entre parênteses.
+# "object" é a super classe de todas as classes.
+# No Python 3.x "class Pessoa" é
+# equivalente a "class Pessoa(object)"
+class Pessoa(object):
+      
+    # Construtor do objeto Pessoa
+    def __init__(self, nome):
+        self.nome = nome
+  
+    # Função para obter o nome de Pessoa
+    def getNome(self):
+        return self.nome
+  
+    # Função para verificar se Pessoa é contato ou não
+    def verificaPessoa(self):
+        return False
+  
